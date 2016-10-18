@@ -10,6 +10,7 @@ public class Main {
         //used for scanner and .next() or .nextInt() or .nextString() or .nextLine()
         //position for scanner can never be placed backwards...only ahead
         //position is basically used for all scanner classes in order to tell the comptuer where the curser is and where to cutoff the outprint
+        //Eats Strings
         Scanner input = new Scanner("word1 word2");
         System.out.println(input.next());
         System.out.println(input.nextLine());
